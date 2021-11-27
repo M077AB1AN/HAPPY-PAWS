@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+}
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to top, #a18cd1 0);
+}
+
+.Login-Perro{
+    
+    height: 50.75em;
+    width: 60em;
+    margin: 6em auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.image-Perro{
+    width: 50%;
+    padding-top: 2rem;
+    background-color: var(--red);
+}
+.contenido{
+    width: 50%;
+    text-transform: capitalize;
+    font-size: 2.25rem;
+    font-weight: 601;
+    letter-spacing: 1px;
+    background-color:   var(--red);
+}
+.contenido2{
+    text-align: center;
+    background-color:   var(--red);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    
